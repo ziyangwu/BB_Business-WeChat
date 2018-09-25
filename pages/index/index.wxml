@@ -1,0 +1,14 @@
+
+<view class='indexcontainer' catchtap='musicControl'>
+    <view >
+        <image  class="musicLogo" src="{{isPlay?'/images/picture/music-start.png':'/images/picture/music-stop.png'}}"></image>
+    </view>
+      
+    <image class='picture' src='/images/picture/1.jpg'></image>
+    <image class='picture' src='/images/picture/2.jpg'></image>
+    <image class='picture' src='/images/picture/3.jpg'></image>
+    <view catchtap='handleClick'>
+        <image  class='phoneLogo' src='/images/picture/4.jpg'></image>  
+    </view>
+   
+</view>

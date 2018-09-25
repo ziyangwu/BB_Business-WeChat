@@ -1,0 +1,30 @@
+/**index.wxss**/
+.indexcontainer{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.picture{
+   width: 100%;
+   height: 2380rpx;
+}
+
+.phoneLogo{
+  position: fixed;
+  display: flex;
+  bottom: 100rpx;
+  right: 0rpx;
+  width: 200rpx;
+  height: 70rpx;
+}
+
+.musicLogo{
+  position: fixed;
+  display: flex;
+  top: 20rpx;
+  right: 10rpx;
+  width: 7%;
+  height:5%;
+ 
+}
